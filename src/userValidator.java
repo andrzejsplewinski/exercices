@@ -1,12 +1,13 @@
-import java.util.*;
 import java.lang.*;
-import java.io.*;
+
 public class userValidator {
-    public void validateAge(int age) {
+    public boolean validateAge(int age) {
         if (age <= 15){
             System.out.println("Too young!");
+            return false;
         } else {
             System.out.println("User age is ok");
+            return true;
         }
     }
     public void validateSex(char sex){
