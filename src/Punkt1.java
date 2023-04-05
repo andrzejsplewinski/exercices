@@ -1,2 +1,4 @@
-package PACKAGE_NAME;public class Punkt1 {
+public class Punkt1 {
+    int age;
+    char sex;
 }
